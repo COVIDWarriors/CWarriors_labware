@@ -1,0 +1,123 @@
+{
+    "ordering": [
+        [
+            "A1",
+            "B1"
+        ],
+        [
+            "A2",
+            "B2"
+        ],
+        [
+            "A3",
+            "B3"
+        ]
+    ],
+    "brand": {
+        "brand": "generic",
+        "brandId": []
+    },
+    "metadata": {
+        "displayName": "Opentrons tube tack 6 generic 30000 µL",
+        "displayCategory": "tubeRack",
+        "displayVolumeUnits": "µL",
+        "tags": []
+    },
+    "dimensions": {
+        "xDimension": 127.76,
+        "yDimension": 85.48,
+        "zDimension": 98.3
+    },
+    "wells": {
+        "A1": {
+            "depth": 88,
+            "totalLiquidVolume": 30000,
+            "shape": "circular",
+            "diameter": 22.5,
+            "x": 35.5,
+            "y": 60.24,
+            "z": 10.3
+        },
+        "B1": {
+            "depth": 88,
+            "totalLiquidVolume": 30000,
+            "shape": "circular",
+            "diameter": 22.5,
+            "x": 35.5,
+            "y": 25.24,
+            "z": 10.3
+        },
+        "A2": {
+            "depth": 88,
+            "totalLiquidVolume": 30000,
+            "shape": "circular",
+            "diameter": 22.5,
+            "x": 70.5,
+            "y": 60.24,
+            "z": 10.3
+        },
+        "B2": {
+            "depth": 88,
+            "totalLiquidVolume": 30000,
+            "shape": "circular",
+            "diameter": 22.5,
+            "x": 70.5,
+            "y": 25.24,
+            "z": 10.3
+        },
+        "A3": {
+            "depth": 88,
+            "totalLiquidVolume": 30000,
+            "shape": "circular",
+            "diameter": 22.5,
+            "x": 105.5,
+            "y": 60.24,
+            "z": 10.3
+        },
+        "B3": {
+            "depth": 88,
+            "totalLiquidVolume": 30000,
+            "shape": "circular",
+            "diameter": 22.5,
+            "x": 105.5,
+            "y": 25.24,
+            "z": 10.3
+        }
+    },
+    "groups": [
+        {
+            "metadata": {
+                "displayName": "Opentrons tube tack 6 generic 30000 µL",
+                "displayCategory": "tubeRack",
+                "wellBottomShape": "v"
+            },
+            "brand": {
+                "brand": "generic",
+                "brandId": []
+            },
+            "wells": [
+                "A1",
+                "B1",
+                "A2",
+                "B2",
+                "A3",
+                "B3"
+            ]
+        }
+    ],
+    "parameters": {
+        "format": "irregular",
+        "quirks": [],
+        "isTiprack": false,
+        "isMagneticModuleCompatible": false,
+        "loadName": "opentrons_6_tuberack_generic_30ml_conical"
+    },
+    "namespace": "custom_beta",
+    "version": 1,
+    "schemaVersion": 2,
+    "cornerOffsetFromSlot": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    }
+}
